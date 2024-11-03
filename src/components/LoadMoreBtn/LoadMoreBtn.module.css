@@ -1,0 +1,25 @@
+.loadMoreWrapper {
+  /* background-color: transparent; */
+  display: flex;
+  justify-content: center;
+}
+
+.loadMoreBtn {
+  border: 1px solid #595959;
+  border-radius: 25px;
+  color: white;
+  background-color: #2f2f2f;
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 45px;
+  padding: 10px;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.loadMoreBtn:hover {
+  background-color: #454343;
+}
